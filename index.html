@@ -1,303 +1,199 @@
 <!doctype html>
 <html lang="ja">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width,initial-scale=1" name="viewport"/>
-<meta content="noindex,nofollow,noarchive,nosnippet" name="robots"/>
-<meta content="#0b0810" name="theme-color"/>
-<meta content="LUXRESSA（リュクレッサ）。奈良県中南和を中心に派遣予定。60分16,000円から、10分刻みで時間を選べる大人向けプライベートサービス。現在は開業準備中です。" name="description"/>
-<title>LUXRESSA｜プライベート派遣サービス</title>
-<link href="styles.css" rel="stylesheet"/>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+  <meta name="theme-color" content="#09070d">
+  <meta name="description" content="LUXRESSA（リュクレッサ）。30分10,000円からの料金システム。現在は開業準備中です。">
+  <title>LUXRESSA｜料金システム</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body class="lock">
-<div aria-labelledby="ageTitle" aria-modal="true" class="age" id="age" role="dialog">
-  <div class="ageBox">
-    <div class="eyebrow">Age Verification</div>
-    <h2 id="ageTitle">18歳以上ですか？</h2>
-    <p>18歳未満の方および高校生はご利用いただけません。<br>現在は開業準備中で、営業・予約受付は開始していません。</p>
-    <div class="ageActions" id="ageActions">
-      <button class="btn primary" id="enter" type="button">18歳以上です</button>
-      <button class="btn" id="leave" type="button">退出する</button>
+  <div class="age" id="age" role="dialog" aria-modal="true" aria-labelledby="ageTitle">
+    <div class="ageBox">
+      <div class="eyebrow">AGE VERIFICATION</div>
+      <h2 id="ageTitle">18歳以上ですか？</h2>
+      <p>18歳未満の方および高校生はご利用いただけません。<br>現在は開業準備中のため、営業・予約受付はまだ開始していません。</p>
+      <div class="ageActions" id="ageActions">
+        <button class="btn primary" id="enter" type="button">18歳以上です</button>
+        <button class="btn" id="leave" type="button">退出する</button>
+      </div>
+      <div class="exit" id="exit">このページはご利用いただけません。</div>
     </div>
-    <div class="exit" id="exit">このページはご利用いただけません。</div>
   </div>
-</div>
 
-<div class="prepbar">LUXRESSAは現在、開業準備中です。掲載内容は準備中のご案内です。</div>
+  <div class="prepbar">LUXRESSA は現在、開業準備中です。掲載内容は準備中のご案内です。</div>
 
-<header class="top">
-  <div class="wrap nav">
-    <a class="brand" data-brand href="#top">LUXRESSA</a>
-    <nav class="links" id="nav">
-      <a href="#cast">女性</a>
-      <a href="#price">料金</a>
-      <a href="#style">スタイル</a>
-      <a href="#flow">ご利用の流れ</a>
-      <a href="#faq">FAQ</a>
-    </nav>
-    <button aria-label="メニューを開く" class="menu" id="menu" type="button">☰</button>
-  </div>
-</header>
+  <header class="top">
+    <div class="wrap nav">
+      <a class="brand" href="#top">LUXRESSA</a>
+      <nav class="links" id="nav">
+        <a href="#price">料金</a>
+        <a href="#design">選び方</a>
+        <a href="#flow">ご利用の流れ</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <button class="menu" id="menu" type="button" aria-label="メニューを開く">☰</button>
+    </div>
+  </header>
 
-<main id="top">
-  <section class="hero">
-    <div class="heroGlow heroGlowA"></div>
-    <div class="heroGlow heroGlowB"></div>
-    <div class="wrap heroGrid">
-      <div class="heroText">
-        <div class="eyebrow">Private Premium Time</div>
-        <h1 data-brand>LUXRESSA</h1>
-        <p class="copy">女性で選ぶ。<br>時間で選ぶ。<br>過ごし方で選ぶ。</p>
-        <p class="lead">落ち着いて過ごしたい方にも、密度のある時間を求める方にも。<br>分かりやすい料金と、女性ごとの個性が伝わる、上質なプライベートサービスを準備しています。</p>
-        <div class="heroCtas">
-          <a class="btnLink primary" href="#cast">女性を見る</a>
-          <a class="btnLink" href="#price">料金を見る</a>
-        </div>
-        <div class="facts">
-          <div class="fact"><b>60分 16,000円〜</b><span>10分刻みで選択</span></div>
-          <div class="fact"><b>総額を事前表示</b><span>指名料・交通費も明確に案内</span></div>
-          <div class="fact"><b>女性ごとの個性が分かる</b><span>雰囲気・得意スタイルを掲載予定</span></div>
-          <div class="fact"><b>奈良県中南和中心</b><span>派遣対応予定エリアを順次案内</span></div>
-        </div>
-      </div>
-      <div class="heroVisual">
-        <div class="visualFrame">
-          <div class="visualBadge">OPENING PREPARATION</div>
-          <div class="visualLabel">LUXRESSA</div>
-          <div class="visualPrice">
-            <small>STARTING FROM</small>
-            <strong>¥16,000</strong>
-            <span>60分 / 10分刻み</span>
+  <main id="top">
+    <section class="hero">
+      <div class="heroGlow glow1"></div>
+      <div class="heroGlow glow2"></div>
+      <div class="wrap heroGrid">
+        <div class="heroCopy">
+          <div class="eyebrow">PRIVATE PREMIUM TIME</div>
+          <h1>LUXRESSA</h1>
+          <p class="catch">料金も、雰囲気も、<br>一目で惹きつける。</p>
+          <p class="lead">分かりにくい説明は減らし、見たい情報をすぐ確認できる設計へ。<br>30分10,000円からの料金システムを、印象的なデザインでまとめました。</p>
+          <div class="heroCtas">
+            <a class="btnLink primary" href="#price">料金を見る</a>
+            <a class="btnLink" href="#faq">よくある質問</a>
           </div>
-          <div class="visualCards">
-            <div class="visualCard"><b>女性を選びやすい</b><span>雰囲気・接客傾向・対応範囲が分かる設計</span></div>
-            <div class="visualCard"><b>余計な説明は少なく</b><span>見たい情報を上から順にすぐ確認</span></div>
-            <div class="visualCard"><b>高級感のある世界観</b><span>上質・落ち着き・色気をバランス良く設計</span></div>
+          <div class="heroFacts">
+            <span><b>30分</b> 10,000円</span>
+            <span><b>60分</b> 16,000円</span>
+            <span><b>120分</b> 30,000円</span>
+            <span><b>240分</b> 60,000円</span>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="quicknav">
-    <div class="wrap quicknavGrid">
-      <a class="quickItem" href="#cast"><span>01</span><b>女性を見る</b><small>雰囲気・タイプ</small></a>
-      <a class="quickItem" href="#price"><span>02</span><b>料金を見る</b><small>60分 16,000円〜</small></a>
-      <a class="quickItem" href="#style"><span>03</span><b>スタイルを見る</b><small>選べる3タイプ</small></a>
-      <a class="quickItem" href="#flow"><span>04</span><b>流れを見る</b><small>初めてでも分かりやすい</small></a>
-    </div>
-  </section>
-
-  <section id="cast">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">Cast Preview</div>
-        <h2>まず、女性から選ぶ。</h2>
-        <p>写真だけではなく、雰囲気や接客タイプも分かる見せ方を予定しています。</p>
-      </div>
-      <div class="castGrid">
-        <article class="castCard featured">
-          <div class="castThumb tone1"><span>Grace / 艶やか</span></div>
-          <div class="castBody">
-            <div class="castTop"><h3>YUI</h3><em>上品・やさしい・密着感</em></div>
-            <div class="tagRow"><span>落ち着いた会話</span><span>RELAX向き</span><span>初めて向き</span></div>
-            <p>柔らかい雰囲気で、丁寧に距離を縮めていくタイプ。ゆっくり過ごしたい方に。</p>
+        <div class="heroVisual">
+          <div class="visualTop">
+            <span class="visualChip">PRICE SYSTEM</span>
+            <span class="visualChip alt">OPEN 〜 LAST</span>
           </div>
-        </article>
-        <article class="castCard">
-          <div class="castThumb tone2"><span>Elegant / 大人っぽい</span></div>
-          <div class="castBody">
-            <div class="castTop"><h3>RINA</h3><em>美意識・色気・余裕</em></div>
-            <div class="tagRow"><span>BALANCE向き</span><span>会話も雰囲気も</span><span>大人っぽい接客</span></div>
-            <p>見た目の華やかさと、落ち着いた接客のバランスが魅力。迷ったら選びやすいタイプ。</p>
+          <div class="visualMain">
+            <small>START FROM</small>
+            <strong>¥10,000</strong>
+            <p>30MIN / HOTEL FEE SEPARATE</p>
           </div>
-        </article>
-        <article class="castCard">
-          <div class="castThumb tone3"><span>Luxury / 華やか</span></div>
-          <div class="castBody">
-            <div class="castTop"><h3>AYA</h3><em>華やか・刺激・特別感</em></div>
-            <div class="tagRow"><span>SENSUAL向き</span><span>非日常感</span><span>印象に残る時間</span></div>
-            <p>明るさと色気を兼ね備えた、非日常感のあるタイプ。特別感を重視したい方に。</p>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section id="price">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">Price</div>
-        <h2>料金は、見た瞬間に分かる。</h2>
-        <p>長い説明は減らし、主要な時間と目安料金をすぐ見られる設計にしています。</p>
-      </div>
-      <div class="priceBox">
-        <div class="sim">
-          <span class="eyebrow">Price Simulator</span>
-          <strong id="timeLabel">60 MIN</strong>
-          <div class="yen" id="priceLabel">¥16,000</div>
-          <input aria-label="利用時間" id="timeRange" max="180" min="60" step="10" type="range" value="60"/>
-          <div class="rangeLabels"><span>60分</span><span>120分</span><span>180分</span></div>
-          <button class="long" id="long" type="button">240分ロングを見る　¥52,000</button>
-          <div class="note">60分16,000円 / 以降10分ごと +2,000円</div>
-        </div>
-        <div class="tableCard">
-          <div class="popularPrices">
-            <div class="price"><b>60分</b><span>16,000円</span><em>ショート</em></div>
-            <div class="price reco"><b>90分</b><span>22,000円</span><em>おすすめ</em></div>
-            <div class="price"><b>120分</b><span>28,000円</span><em>ゆったり</em></div>
-            <div class="price"><b>150分</b><span>34,000円</span><em>ロング</em></div>
-            <div class="price"><b>180分</b><span>40,000円</span><em>たっぷり</em></div>
-            <div class="price"><b>240分</b><span>52,000円</span><em>特別枠</em></div>
-          </div>
-          <div class="note">指名料・交通費・オプション料金を設定する場合は、予約前に総額をご案内します。</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="style">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">Service Style</div>
-        <h2>迷いにくい、3つのスタイル。</h2>
-      </div>
-      <div class="services">
-        <article class="service">
-          <small>01</small>
-          <h3>RELAX</h3>
-          <p>ゆっくり落ち着いて過ごしたい方向け。やさしい雰囲気と心地よさを重視した時間。</p>
-          <span class="best">初めての方にもおすすめ</span>
-        </article>
-        <article class="service featured">
-          <small>02</small>
-          <h3>BALANCE</h3>
-          <p>会話・雰囲気・密度のバランスを重視した、LUXRESSAの中心スタイル。</p>
-          <span class="best">一番選びやすい中心プラン</span>
-        </article>
-        <article class="service">
-          <small>03</small>
-          <h3>SENSUAL</h3>
-          <p>非日常感や特別感を重視したい方向け。印象に残る時間を求める方に。</p>
-          <span class="best">特別感を重視したい方に</span>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="personalSection">
-    <div class="wrap personal">
-      <div>
-        <div class="eyebrow">Personal Select</div>
-        <h3>過ごし方を、選びやすく。</h3>
-        <p>細かい説明を読まなくても、好みを選ぶだけでイメージしやすい設計を予定しています。</p>
-      </div>
-      <div class="questions">
-        <div class="q">
-          <b>雰囲気は？</b>
-          <div class="choices" data-group="mood">
-            <button class="choice active" type="button">やさしく</button>
-            <button class="choice" type="button">恋人感</button>
-            <button class="choice" type="button">大人っぽく</button>
+          <div class="visualStack">
+            <div class="stackCard"><b>本指名料</b><span>¥2,000〜</span></div>
+            <div class="stackCard"><b>パネル指名</b><span>初回無料 / 2回目以降 ¥1,000</span></div>
+            <div class="stackCard featured"><b>キャスト貸切</b><span>¥150,000</span></div>
           </div>
         </div>
-        <div class="q">
-          <b>会話は？</b>
-          <div class="choices" data-group="talk">
-            <button class="choice active" type="button">多め</button>
-            <button class="choice" type="button">ほどよく</button>
-            <button class="choice" type="button">静かに</button>
+      </div>
+    </section>
+
+    <section class="priceStrip">
+      <div class="wrap marquee">
+        <span>30分 ¥10,000</span>
+        <span>60分 ¥16,000</span>
+        <span>70分 ¥18,000</span>
+        <span>90分 ¥20,000</span>
+        <span>100分 ¥25,000</span>
+        <span>120分 ¥30,000</span>
+        <span>180分 ¥45,000</span>
+        <span>240分 ¥60,000</span>
+      </div>
+    </section>
+
+    <section id="price" class="priceSection">
+      <div class="wrap">
+        <div class="sectionTop">
+          <div>
+            <div class="eyebrow">PRICE SYSTEM</div>
+            <h2>料金システム</h2>
+          </div>
+          <span class="sectionNote">全コース別途ホテル代</span>
+        </div>
+
+        <div class="priceWall">
+          <article class="priceCard mini"><small>30分</small><strong>10,000<span>円</span></strong></article>
+          <article class="priceCard"><small>60分</small><strong>16,000<span>円</span></strong></article>
+          <article class="priceCard"><small>70分</small><strong>18,000<span>円</span></strong></article>
+          <article class="priceCard featured"><em>POPULAR</em><small>90分</small><strong>20,000<span>円</span></strong></article>
+          <article class="priceCard accent"><small>100分</small><strong>25,000<span>円</span></strong></article>
+          <article class="priceCard featured2"><em>RECOMMEND</em><small>120分</small><strong>30,000<span>円</span></strong></article>
+          <article class="priceCard large"><small>180分</small><strong>45,000<span>円</span></strong></article>
+          <article class="priceCard large deep"><small>240分</small><strong>60,000<span>円</span></strong></article>
+        </div>
+
+        <div class="subGrid">
+          <div class="infoCard">
+            <div class="eyebrow">OPTION / NOMINATION</div>
+            <h3>指名・延長</h3>
+            <ul class="cleanList">
+              <li><b>パネル指名</b><span>初回利用無料（2回目以降 ¥1,000）</span></li>
+              <li><b>本指名料</b><span>¥2,000〜</span></li>
+              <li><b>延長15分</b><span>¥5,000 ＋ 指名料</span></li>
+              <li><b>延長30分</b><span>¥10,000 ＋ 指名料</span></li>
+            </ul>
+          </div>
+
+          <div class="infoCard standout">
+            <div class="eyebrow">SPECIAL</div>
+            <h3>キャスト貸切</h3>
+            <div class="specialPrice">¥150,000</div>
+            <p>OPEN〜LAST の特別枠としてご案内する想定です。</p>
           </div>
         </div>
-        <div class="q">
-          <b>時間の感じ方は？</b>
-          <div class="choices" data-group="style">
-            <button class="choice active" type="button">ゆったり</button>
-            <button class="choice" type="button">バランス</button>
-            <button class="choice" type="button">濃密に</button>
-          </div>
+
+        <div class="noticeCard">
+          <div class="eyebrow">IMPORTANT</div>
+          <p>※ 全てのコース料金にプラスで、<b>別途ホテル代</b> が必要です。</p>
         </div>
-        <div class="summary" id="summary">おすすめイメージ：やさしく / 会話多め / ゆったりスタイル</div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="flow">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">How To Use</div>
-        <h2>初めてでも、流れはシンプル。</h2>
+    <section id="design" class="designSection">
+      <div class="wrap designGrid">
+        <div class="designText">
+          <div class="eyebrow">WHAT MAKES IT BETTER</div>
+          <h2>見栄えだけで終わらせない。</h2>
+          <p>今回の改善では、ただ料金を並べるのではなく、<br><b>「一瞬で分かる」「高く見えすぎない」「安っぽく見えない」</b> の3点を重視しました。</p>
+        </div>
+        <div class="featureList">
+          <article><span>01</span><h3>料金を主役に</h3><p>コース時間と金額をカード化し、スマホでも一目で見やすく整理。</p></article>
+          <article><span>02</span><h3>情報を絞る</h3><p>余計な説明を減らし、知りたいことだけを短く分かりやすく表示。</p></article>
+          <article><span>03</span><h3>印象を強く</h3><p>黒・ゴールド・ワインカラーで高級感を出しつつ、ありきたりすぎない構成に変更。</p></article>
+        </div>
       </div>
-      <div class="steps">
-        <article class="step"><span>01</span><h3>女性を選ぶ</h3><p>雰囲気・スタイル・接客タイプから確認。</p></article>
-        <article class="step"><span>02</span><h3>時間を選ぶ</h3><p>60分16,000円から、10分刻みで選択。</p></article>
-        <article class="step"><span>03</span><h3>総額を確認</h3><p>指名料や交通費を含め、事前にご案内。</p></article>
-        <article class="step"><span>04</span><h3>受付完了</h3><p>営業開始後、受付方法を分かりやすく案内予定です。</p></article>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="areaSection">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">Service Area</div>
-        <h2>対応予定エリア</h2>
+    <section id="flow" class="flowSection">
+      <div class="wrap">
+        <div class="sectionTop"><div><div class="eyebrow">HOW TO USE</div><h2>ご利用の流れ</h2></div></div>
+        <div class="steps">
+          <div class="step"><span>01</span><b>料金を確認</b><p>ご希望のコース時間を選びます。</p></div>
+          <div class="step"><span>02</span><b>指名条件を確認</b><p>パネル指名・本指名・延長料金を確認します。</p></div>
+          <div class="step"><span>03</span><b>総額を確認</b><p>ホテル代を含めたご案内を受けます。</p></div>
+          <div class="step"><span>04</span><b>受付完了</b><p>営業開始後に受付方法を掲載予定です。</p></div>
+        </div>
       </div>
-      <div class="areas">
-        <div class="areaItem"><b>桜井・橿原</b><span>中心対応予定</span></div>
-        <div class="areaItem"><b>香芝・大和高田</b><span>順次ご案内</span></div>
-        <div class="areaItem"><b>天理・大和郡山</b><span>順次ご案内</span></div>
-        <div class="areaItem"><b>中南和周辺</b><span>詳細は営業開始時に掲載</span></div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section id="faq">
-    <div class="wrap">
-      <div class="head slim">
-        <div class="eyebrow">FAQ</div>
-        <h2>よくあるご質問</h2>
+    <section id="faq" class="faqSection">
+      <div class="wrap narrow">
+        <div class="sectionTop"><div><div class="eyebrow">FAQ</div><h2>よくあるご質問</h2></div></div>
+        <div class="faqList">
+          <div class="faq open"><button type="button">ホテル代は込みですか？<span>＋</span></button><p>いいえ。全てのコース料金にプラスで、別途ホテル代が必要です。</p></div>
+          <div class="faq"><button type="button">パネル指名はいくらですか？<span>＋</span></button><p>初回利用無料、2回目以降は ¥1,000 の想定です。</p></div>
+          <div class="faq"><button type="button">本指名料はいくらですか？<span>＋</span></button><p>本指名料は ¥2,000〜 を想定しています。</p></div>
+          <div class="faq"><button type="button">今すぐ予約できますか？<span>＋</span></button><p>現在は開業準備中のため、まだ予約受付は開始していません。</p></div>
+        </div>
       </div>
-      <div class="faqList">
-        <article class="faq open"><button type="button"><span>今すぐ予約できますか？</span><span>＋</span></button><p>現在は開業準備中のため、営業・予約受付は開始していません。準備完了後に受付方法をご案内します。</p></article>
-        <article class="faq"><button type="button"><span>料金以外にかかるものはありますか？</span><span>＋</span></button><p>指名料・交通費・オプション料金を設定する場合は、予約前に総額をご案内する方針です。</p></article>
-        <article class="faq"><button type="button"><span>女性の個性は分かりますか？</span><span>＋</span></button><p>写真だけでなく、雰囲気・接客傾向・得意な時間の過ごし方が分かるように掲載する予定です。</p></article>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="ctaSection">
-    <div class="wrap">
-      <div class="cta">
-        <div class="eyebrow">Opening Preparation</div>
-        <h2>上質な時間を、<br>分かりやすく。</h2>
-        <p>女性選び・料金確認・時間選びが迷いにくい、LUXRESSAの店舗サイトを準備しています。</p>
+    <section class="closing">
+      <div class="wrap closingCard">
+        <div class="eyebrow">LUXRESSA</div>
+        <h2>価格も印象も、<br>選ばれるサイトへ。</h2>
+        <p>料金の見やすさと高級感のバランスを重視した、お客様向けの構成に改善しています。</p>
         <span class="disabled">現在は営業開始前です</span>
       </div>
-    </div>
-  </section>
-</main>
+    </section>
+  </main>
 
-<footer>
-  <div class="wrap footerWrap">
-    <div>
-      <b data-brand>LUXRESSA</b><br/>
-      <span>現在は開業準備中です。掲載内容は準備中の案内です。</span>
-    </div>
-    <div class="footNote">18歳未満および高校生利用不可 / 違法行為不可</div>
-  </div>
-</footer>
+  <div class="mobileBar"><a href="#price">料金</a><a href="#faq">FAQ</a><span>準備中</span></div>
 
-<div class="mobileDock">
-  <a href="#cast">女性</a>
-  <a href="#price">料金</a>
-  <a href="#flow">流れ</a>
-</div>
+  <footer><div class="wrap footerWrap"><b>LUXRESSA</b><span>18歳未満・高校生利用不可 / 現在開業準備中</span></div></footer>
 
 <script>
-const SITE_CONFIG={brand:"LUXRESSA"};
-document.querySelectorAll('[data-brand]').forEach(el=>el.textContent=SITE_CONFIG.brand);
-
 const age=document.getElementById('age');
 const enter=document.getElementById('enter');
 const leave=document.getElementById('leave');
@@ -305,46 +201,11 @@ const exitBox=document.getElementById('exit');
 const ageActions=document.getElementById('ageActions');
 enter.addEventListener('click',()=>{age.hidden=true;document.body.classList.remove('lock')});
 leave.addEventListener('click',()=>{ageActions.classList.add('hide');exitBox.classList.add('show')});
-
 const menu=document.getElementById('menu');
 const nav=document.getElementById('nav');
 menu.addEventListener('click',()=>nav.classList.toggle('open'));
-document.querySelectorAll('#nav a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
-
-const range=document.getElementById('timeRange');
-const timeLabel=document.getElementById('timeLabel');
-const priceLabel=document.getElementById('priceLabel');
-const longBtn=document.getElementById('long');
-function renderPrice(){
-  const min=parseInt(range.value,10);
-  const price=16000+((min-60)/10)*2000;
-  timeLabel.textContent=`${min} MIN`;
-  priceLabel.textContent=`¥${price.toLocaleString('ja-JP')}`;
-}
-range.addEventListener('input',renderPrice);
-renderPrice();
-longBtn.addEventListener('click',()=>{range.value=180;renderPrice();priceLabel.textContent='¥52,000';timeLabel.textContent='240 MIN';});
-
-const groups=document.querySelectorAll('.choices');
-const summary=document.getElementById('summary');
-function updateSummary(){
-  const values=[...document.querySelectorAll('.choices')].map(group=>group.querySelector('.choice.active')?.textContent||'');
-  summary.textContent=`おすすめイメージ：${values[0]} / ${values[1]} / ${values[2]}スタイル`;
-}
-groups.forEach(group=>{
-  group.querySelectorAll('.choice').forEach(btn=>{
-    btn.addEventListener('click',()=>{
-      group.querySelectorAll('.choice').forEach(x=>x.classList.remove('active'));
-      btn.classList.add('active');
-      updateSummary();
-    });
-  });
-});
-updateSummary();
-
-document.querySelectorAll('.faq').forEach(item=>{
-  item.querySelector('button').addEventListener('click',()=>item.classList.toggle('open'));
-});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>nav.classList.remove('open')));
+document.querySelectorAll('.faq button').forEach(btn=>{btn.addEventListener('click',()=>btn.parentElement.classList.toggle('open'));});
 </script>
 </body>
 </html>
