@@ -4,133 +4,154 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
-  <meta name="theme-color" content="#fffdf9">
-  <meta name="description" content="LUXRESA 送迎ドライバー募集。30分コース1本1,000円、60分以上1本2,000円。燃料費別途、車両貸出可能（条件あり）。">
+  <meta name="theme-color" content="#fffaf4">
+  <meta name="description" content="LUXRESA 送迎ドライバー募集。1本1,000円〜2,000円、燃料費別、車両貸出可能。分かりやすく整理した募集ページです。">
   <title>LUXRESA｜送迎ドライバー募集</title>
   <link rel="stylesheet" href="driver.css">
 </head>
 <body>
-  <div class="topbar">送迎ドライバー募集　｜　LUXRESA</div>
+  <div class="topbar">DRIVER RECRUIT　｜　LUXRESA</div>
 
-  <header class="top">
+  <header class="sitehead">
     <div class="wrap nav">
       <a class="brand" href="index.html">LUXRESA</a>
-      <nav>
+      <nav class="navlinks" id="navlinks">
         <a href="#summary">募集条件</a>
         <a href="#pay">報酬</a>
-        <a href="#work">仕事内容</a>
+        <a href="#flow">仕事内容</a>
         <a href="#car">車両</a>
+        <a href="recruit.html">キャスト募集</a>
       </nav>
-      <a class="back" href="recruit.html">キャスト募集</a>
+      <button class="hamburger" id="hamburger" type="button" aria-label="メニューを開く">☰</button>
     </div>
   </header>
 
   <main>
     <section class="hero">
+      <div class="spark s1"></div>
+      <div class="spark s2"></div>
       <div class="wrap heroGrid">
-        <div class="heroCopy">
+        <div class="heroCopy reveal">
           <div class="eyebrow">DRIVER RECRUIT</div>
-          <h1>送迎<br>ドライバー募集</h1>
-          <p class="catch">キャストを安全に送迎する仕事です。</p>
-          <div class="heroPay">
-            <div><small>30分コース</small><strong>1本 1,000円</strong></div>
-            <div class="main"><small>60分以上</small><strong>1本 2,000円</strong></div>
-          </div>
-          <div class="chips">
-            <span>燃料費は別途</span>
+          <h1>送迎ドライバー募集</h1>
+          <p class="lead">仕事内容・報酬・条件が、<br>すぐ分かるページに整理しました。</p>
+          <div class="chipRow">
+            <span>30分 1本 1,000円</span>
+            <span>60分〜 1本 2,000円</span>
+            <span>燃料費別</span>
             <span>車両貸出可能</span>
-            <span>普通免許必須</span>
-            <span>安全運転優先</span>
           </div>
           <a class="cta" href="#summary">募集条件を見る</a>
         </div>
-
-        <div class="heroPanel">
-          <div class="panelLabel">仕事と報酬</div>
-          <div class="simpleRow"><span>仕事内容</span><b>キャストの送迎</b></div>
-          <div class="simpleRow"><span>30分コース</span><b>1,000円 / 1本</b></div>
-          <div class="simpleRow featured"><span>60分以上</span><b>2,000円 / 1本</b></div>
-          <div class="simpleRow"><span>燃料費</span><b>別途</b></div>
-          <div class="simpleRow"><span>車両</span><b>貸出可（条件あり）</b></div>
+        <div class="heroPanel reveal">
+          <div class="heroPanelHead">仕事と報酬</div>
+          <div class="heroLine"><span>仕事内容</span><b>キャストの送迎</b></div>
+          <div class="heroLine"><span>30分コース</span><b>1,000円 / 1本</b></div>
+          <div class="heroLine main"><span>60分以上</span><b>2,000円 / 1本</b></div>
+          <div class="heroLine"><span>燃料費</span><b>別途</b></div>
+          <div class="heroLine"><span>車両</span><b>貸出可（条件あり）</b></div>
         </div>
       </div>
     </section>
 
-    <section id="summary" class="summarySection">
+    <section class="section" id="summary">
       <div class="wrap">
-        <div class="sectionHead"><div class="eyebrow">AT A GLANCE</div><h2>これだけ見れば分かります。</h2></div>
+        <div class="sectionHead reveal">
+          <div>
+            <div class="eyebrow">AT A GLANCE</div>
+            <h2>募集条件</h2>
+          </div>
+        </div>
         <div class="summaryGrid">
-          <article><small>WORK</small><b>キャスト送迎</b><p>指定場所への送迎を行います。</p></article>
-          <article><small>PAY</small><b>1本 1,000〜2,000円</b><p>コース時間で報酬が決まります。</p></article>
-          <article><small>FUEL</small><b>燃料費は別途</b><p>報酬とは分けて扱います。</p></article>
-          <article><small>CAR</small><b>車両貸出可能</b><p>貸出には条件があります。</p></article>
+          <article class="summaryCard reveal"><small>WORK</small><b>キャスト送迎</b><p>指定場所への送迎を行います。</p></article>
+          <article class="summaryCard reveal"><small>PAY</small><b>1本 1,000〜2,000円</b><p>コース時間で報酬が決まります。</p></article>
+          <article class="summaryCard reveal"><small>FUEL</small><b>燃料費は別途</b><p>本数報酬とは別扱いです。</p></article>
+          <article class="summaryCard reveal"><small>CAR</small><b>車両貸出可能</b><p>貸出には条件があります。</p></article>
         </div>
       </div>
     </section>
 
-    <section id="pay" class="paySection">
+    <section class="section alt" id="pay">
       <div class="wrap">
-        <div class="sectionHead"><div class="eyebrow">PAYMENT</div><h2>報酬</h2></div>
-        <div class="payCards">
-          <article>
+        <div class="sectionHead reveal">
+          <div>
+            <div class="eyebrow">PAYMENT</div>
+            <h2>報酬</h2>
+          </div>
+        </div>
+        <div class="payGrid">
+          <article class="payCard reveal">
             <small>30分コースを担当した場合</small>
             <strong>1,000円</strong>
             <span>1本につき</span>
           </article>
-          <article class="featured">
+          <article class="payCard featured reveal">
             <small>60分以上のコースを担当した場合</small>
             <strong>2,000円</strong>
             <span>1本につき</span>
           </article>
         </div>
-        <div class="fuelCard"><span>＋</span><b>燃料費は別途</b><small>報酬1,000円 / 2,000円とは別です。</small></div>
+        <div class="fuelBanner reveal">＋ 燃料費は別途</div>
       </div>
     </section>
 
-    <section id="work" class="workSection">
+    <section class="section" id="flow">
       <div class="wrap">
-        <div class="sectionHead"><div class="eyebrow">WORK FLOW</div><h2>仕事内容</h2></div>
-        <div class="workGrid">
-          <article><span>01</span><h3>送迎指示を確認</h3><p>送迎先・時間など必要情報を確認します。</p></article>
-          <article><span>02</span><h3>キャストを送迎</h3><p>指定場所まで安全に送迎します。</p></article>
-          <article><span>03</span><h3>次の送迎へ</h3><p>案件ごとに同じ流れで対応します。</p></article>
+        <div class="sectionHead reveal">
+          <div>
+            <div class="eyebrow">WORK FLOW</div>
+            <h2>仕事内容</h2>
+          </div>
         </div>
-        <div class="important">急ぐことより、<b>安全運転を最優先</b>してください。</div>
+        <div class="flowGrid">
+          <article class="flowCard reveal"><span>01</span><h3>送迎依頼を確認</h3><p>時間と送迎先を確認します。</p></article>
+          <article class="flowCard reveal"><span>02</span><h3>安全に送迎</h3><p>キャストを指定場所へ安全運転で送迎します。</p></article>
+          <article class="flowCard reveal"><span>03</span><h3>次案件へ対応</h3><p>案件ごとに同じ流れで対応します。</p></article>
+        </div>
+        <div class="important reveal">最優先は、<b>安全運転</b>です。</div>
       </div>
     </section>
 
-    <section id="car" class="carSection">
-      <div class="wrap carCard">
-        <div><div class="eyebrow">VEHICLE</div><h2>自分の車がなくても<br>相談できます。</h2></div>
-        <div class="carInfo">
+    <section class="section alt" id="car">
+      <div class="wrap carWrap reveal">
+        <div>
+          <div class="eyebrow">VEHICLE</div>
+          <h2>車がなくても、<br>相談可能。</h2>
+        </div>
+        <div class="carCard">
           <b>車両貸し出し可能</b>
           <span>条件あり</span>
-          <p>貸出条件・利用条件の詳細は応募時にご案内します。</p>
+          <p>貸出条件・利用条件の詳細は募集開始時に案内します。</p>
         </div>
       </div>
     </section>
 
-    <section class="requirements">
-      <div class="wrap reqGrid">
-        <div><div class="eyebrow">REQUIREMENTS</div><h2>応募条件</h2></div>
-        <div class="reqList">
-          <div><b>普通自動車運転免許</b><span>必須</span></div>
-          <div><b>安全運転を最優先できる方</b></div>
-          <div><b>時間・連絡など基本的なルールを守れる方</b></div>
-        </div>
-      </div>
-    </section>
-
-    <section id="entry" class="entrySection">
-      <div class="wrap entryCard">
-        <div class="eyebrow">ENTRY</div>
-        <h2>送迎ドライバー<br>募集</h2>
-        <p>応募窓口は募集開始時に公開します。</p>
-        <span>応募受付準備中</span>
+    <section class="section">
+      <div class="wrap finalCard reveal">
+        <div class="eyebrow">REQUIREMENTS</div>
+        <h2>応募条件</h2>
+        <ul>
+          <li>普通自動車運転免許が必要です。</li>
+          <li>安全運転を最優先できる方。</li>
+          <li>時間・連絡など基本的なルールを守れる方。</li>
+        </ul>
       </div>
     </section>
   </main>
 
-  <footer><div class="wrap"><b>LUXRESA</b><span><a href="index.html">店舗サイト</a>　｜　<a href="recruit.html">キャスト募集</a></span></div></footer>
+  <footer class="sitefoot">
+    <div class="wrap footwrap">
+      <b>LUXRESA</b>
+      <span><a href="index.html">店舗サイト</a>　｜　<a href="recruit.html">キャスト募集</a></span>
+    </div>
+  </footer>
+
+<script>
+const hamburger=document.getElementById('hamburger');
+const navlinks=document.getElementById('navlinks');
+hamburger.addEventListener('click',()=>navlinks.classList.toggle('open'));
+const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');}})},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+</script>
 </body>
 </html>
